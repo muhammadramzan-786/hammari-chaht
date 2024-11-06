@@ -32,6 +32,9 @@ function App() {
             </div>
         </nav>
     </header>
+    <main>
+      <img src={logo} />
+    </main>
    </>
   );
 }
