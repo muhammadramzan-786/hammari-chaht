@@ -1,11 +1,12 @@
-import './output.css';
+import React from 'react';
 import logo from './Images/CompanyLogo.svg'; // Adjust path as needed
-
+import indexPageBanner from './Images/indexPageBanner.svg'; // Adjust path as needed
+import './output.css';
 
 function App() {
   return (
-    <>
-    <header className=" px-10">
+   <>
+    <header className="px-10">
         <nav className="flex items-center gap-44">
             <input type="checkbox" className="hidden" />
            
@@ -33,7 +34,11 @@ function App() {
         </nav>
     </header>
     <main>
-      <img src={logo} />
+<div>
+  <div>
+  <img src={indexPageBanner} alt="Company Logo" />
+  </div>
+</div>
     </main>
    </>
   );
